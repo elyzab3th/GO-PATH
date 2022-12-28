@@ -10,7 +10,7 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 
 ## Subtopics and Contents
 
-
+ [LINK](https://github.com/vkorbes/aprendago/edit/master/OUTLINE.md)
 
 
 
