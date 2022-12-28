@@ -1,6 +1,6 @@
 # Hello World! <img src="https://cdn.worldvectorlogo.com/logos/golang-gopher.svg" width="50" height="50">
 
-<img src="https://user-images.githubusercontent.com/8325672/76652279-7cc88c00-6523-11ea-8cd1-247de96c7c69.png">
+<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--f4Ouy1F0--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/oww8aau9rurh7n9bii52.png">
 
 ## Subtópicos
 
@@ -18,6 +18,8 @@
 - Lição principal: package main, func main, pacote.Identificador.
 
 # Hello World
+
+<img src="https://user-images.githubusercontent.com/8325672/76652279-7cc88c00-6523-11ea-8cd1-247de96c7c69.png">
 
 Uma tradição que se utiliza em uma nova linguagem de programação.
 
