@@ -134,7 +134,9 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 		- Bool como resultado de operadores relacionais
 - Go Playground: https://play.golang.org/p/7joj615nZw
 
-**Como os computadores funcionam** | (Go Lang - Como os computadores funcionam 09.md)[https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Como%20os%20computadores%20funcionam%2009.md]
+#
+
+**Como os computadores funcionam** | [Go Lang - Como os computadores funcionam 09.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Como%20os%20computadores%20funcionam%2009.md)
 
 
 
