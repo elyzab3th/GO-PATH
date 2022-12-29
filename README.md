@@ -134,6 +134,15 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 		- Bool como resultado de operadores relacionais
 - Go Playground: https://play.golang.org/p/7joj615nZw
 
+**Como os computadores funcionam** | (Go Lang - Como os computadores funcionam 09.md)[https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Como%20os%20computadores%20funcionam%2009.md]
 
 
+
+- Isso é importante pois daqui pra frente vamos falar de ints, bytes, e etc.
+- Não é necessário um conhecimento a fundo mas é importante ter uma idéia de como as coisas funcionam por trás dos panos.
+- https://docs.google.com/presentation/d/1aVytiGOBVDMISFW-ZARJ5iFY1osU2XJIw0hQpNICXm8/
+- ASCII: https://en.wikipedia.org/wiki/ASCII
+- Filme: Alan Turing, The Immitation Game.
+
+#
 
