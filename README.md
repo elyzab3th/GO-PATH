@@ -11,6 +11,10 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 
 **Hello World!** | [Go Lang - Hello World 01.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Hello%20World%2001.md)
 
+<details><summary>Content</summary>
+<p>
+
+
 - Estrutura básica:
   - package main.
   - func main: é aqui que tudo começa, é aqui que tudo acaba.
@@ -20,9 +24,17 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
   - Notação: pacote.Identificador. Exemplo: fmt.Println()
   - Documentação: fmt.Println.
 
+
+</p>
+</details>	
+	
+	
 #
 
 **Operador curto de declaração** | [Operador curto de declaração 02.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Operador%20curto%20de%20declara%C3%A7%C3%A3o%2002.md)
+
+<details><summary>Content</summary>
+<p>
 
 - `:=` parece uma marmota (gopher) ou o punisher.
 - Uso:
@@ -41,18 +53,31 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
     - := utilizado pra criar novas variáveis, dentro de code blocks
     - = para atribuir valores a variáveis já existentes
 
+</p>
+</details>
+	
 #
 
 **A palavra-chave var** | [Go Lang - A palavra-chave var 03.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20A%20palavra-chave%20var%2003.md)
+
+<details><summary>Content</summary>
+<p>
+
 
 - ariável declarada em um code block é undefined em outro
 - Para variáveis com uma abrangência maior, package level scope, utilizamos `var`
 - Funciona em qualquer lugar
 - Prestar atenção: chaves, colchetes, parênteses
 
+</p>
+</details>
+	
 #
 
 **Tipos em GO** | [Go Lang - Tipos em GO 04.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Tipos%20em%20GO%2004.md)
+
+<details><summary>Content</summary>
+<p>
 
 - Tipos em Go são extremamente importantes. (Veremos mais quando chegarmos em métodos e interfaces.)
 - Tipos em Go são estáticos.
@@ -70,9 +95,15 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 - slice, array, struct, map
 - O ato de definir, criar, estruturar tipos compostos chama-se composição. Veremos muito disso futuramente.
 
+</p>
+</details>
+	
 #
 
 **Valor zero** | [golang Valor Zero 05.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/golang%20Valor%20Zero%2005.md)
+  
+<details><summary>Content</summary>
+<p>
   
 - Declaração vs. inicialização vs. atribuição de valor. Variáveis: caixas postais.
 - O que é valor zero?
@@ -85,9 +116,15 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 - Use := sempre que possível.
 - Use var para package-level scope.
   
+</p>
+</details>
+	
   #
   
   **O pacote fmt** | [Go Lang - O pacote fmt 06.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20O%20pacote%20fmt%2006.md)
+  
+  <details><summary>Content</summary>
+<p>
   
 - Setup: strings, ints, bools.
 - Strings: interpreted string literals vs. raw string literals.
@@ -108,9 +145,17 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
    - func Fprintf(w io.Writer, format string, a ...interface{}) (n int, err error)
    - func Fprintln(w io.Writer, a ...interface{}) (n int, err error)
    
+
+</p>
+</details>
+	
    #
    
    **Criando seu próprio tipo** [Go Lang Criando seu próprio tipo - 07.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20Criando%20seu%20pr%C3%B3prio%20tipo%20-%2007.md)
+   
+   
+<details><summary>Content</summary>
+<p>
    
 - Revisando: tipos em Go são extremamente importantes. (Veremos mais quando chegarmos em métodos e interfaces.)
 - Tem uma história que Bill Kennedy dizia que se um dia fizesse uma tattoo, ela diria "type is life."
@@ -120,9 +165,15 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 - type hotdog int → var b hotdog (main hotdog)
 - Uma variável de tipo hotdog não pode ser atribuida com o valor de uma variável tipo int, mesmo que este seja o tipo subjacente de hotdog.
 
+</p>
+</details>
+	
 #
 
 **Tipo booleano** | [Go Lang Tipo booleano - 08.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20Tipo%20booleano%20-%2008.md)
+
+<details><summary>Content</summary>
+<p>
 
 - Agora vamos explorar os tipos de maneira mais detalhada. golang.org/ref/spec. A começar pelo bool.
 - O tipo bool é um tipo binário, que só pode conter um dos dois valores: true e false. (Verdadeiro ou falso, sim ou não, zero ou um, etc.)
@@ -134,11 +185,15 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 		- Bool como resultado de operadores relacionais
 - Go Playground: https://play.golang.org/p/7joj615nZw
 
+</p>
+</details>
+	
 #
 
 **Como os computadores funcionam** | [Go Lang - Como os computadores funcionam 09.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Como%20os%20computadores%20funcionam%2009.md)
 
-
+<details><summary>Content</summary>
+<p>
 
 - Isso é importante pois daqui pra frente vamos falar de ints, bytes, e etc.
 - Não é necessário um conhecimento a fundo mas é importante ter uma idéia de como as coisas funcionam por trás dos panos.
@@ -146,5 +201,8 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 - ASCII: https://en.wikipedia.org/wiki/ASCII
 - Filme: Alan Turing, The Immitation Game.
 
+</p>
+</details>
+	
 #
 
