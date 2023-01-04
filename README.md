@@ -206,3 +206,117 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 	
 #
 
+**Tipos numéricos** | [Go Lang - Tipos Numericos 10.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Tipos%20Numericos%2010.md)
+
+<details><summary>Content</summary>
+<p>
+
+- int vs. float: Números inteiros vs. números com frações.
+- golang.org/ref/spec → numeric types
+- Integers:
+    - Números inteiros
+    - int & uint → “implementation-specific sizes”
+    - Todos os tipos numéricos são distintos, exceto:
+        - byte = uint8
+        - rune = int32 (UTF8)
+        (O código fonte da linguagem Go é sempre em UTF-8).
+    - Tipos são únicos
+        - Go é uma linguagem estática
+        - int e int32 não são a mesma coisa
+        - Para "misturá-los" é necessário conversão
+    - Regra geral: use somente int
+- Floating point:
+    - Números racionais ou reais
+    - Regra geral: use somente float64
+- Na prática:
+    - Defaults com :=
+    - Tipagem com var
+    - Dá pra colocar número com vírgula em tipo int?
+    - Overflow
+    - Go Playground: https://play.golang.org/p/dt2x1ies5b
+- “implementation-specific sizes”? Runtime package. Word.
+    - GOOS
+    - GORUNTIME
+    - [Get your architecture with GO](https://play.golang.org/p/1vp5DImIMM)
+
+</p>
+</details>
+
+#
+
+**Overflow** | [Go Lang - Overflow 11.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Overflow%2011.md)
+
+
+<details><summary>Content</summary>
+<p>
+
+
+- Um uint16, por exemplo, vai de 0 a 65535.
+- Que acontece se a gente tentar usar 65536?
+- Ou se a gente estiver em 65535 e tentar adicionar mais 1?
+- Playground: https://play.golang.org/p/t7Z4m127F2t
+
+</P>
+</details>
+
+#
+
+**Strings** | [Go Lang - Strings 12.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Strings%2012.md)
+
+<details><summary>Content</summary>
+<p>
+
+- Strings são sequencias de bytes.
+- Imutáveis.
+- Uma string é um "slice of bytes" (ou, em português, uma fatia de bytes).
+- Na prática:
+    - %v %T
+    - Raw string literals
+    - Conversão para slice of bytes: []byte(x)
+    - %#U, %#x
+    - Go Playground: https://play.golang.org/p/dt2x1ies5b & https://play.golang.org/p/PpDnspiyA_7
+- https://blog.golang.org/strings
+
+</P>
+</details>
+
+#
+
+
+**Sistemas Numéricos** | [Go Lang - Sistemas Numericos 13.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Sistemas%20Numericos%2013.md)
+
+<details><summary>Content</summary>
+<p>
+
+- Base-10: decimal, 0–9
+- Base-2: binário, 0–1
+- Base-16: hexadecimal, 0–f
+- https://docs.google.com/document/d/1GqXpubhMMIr4Sy5xwgiPIDh5PGVmVpF2u0c9vDrvykE/
+- Demonstração em Go.
+
+</P>
+</details>
+
+#
+
+**Constantes** | [Go Lang - Constantes 14.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Constantes%2014.md)
+
+<details><summary>Content</summary>
+<p>
+
+- São valores imutáveis.
+- Podem ser tipadas ou não:
+    - const oi = "Bom dia"
+    - const oi string = "Bom dia"
+- As não tipadas só terão um tipo atribuido a elas quando forem usadas.
+    - Ex. qual o tipo de 42? int? uint? float64?
+    - Ou seja, é uma flexibilidade conveniente.
+- Na prática: int, float, string.
+    - const x = y
+    - const ( x = y )
+
+</P>
+</details>
+
+#
+
