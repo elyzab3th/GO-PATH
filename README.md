@@ -320,3 +320,86 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 
 #
 
+**iota** | [Go Lang - IOTA - 15.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20IOTA%20-%2015.md)
+
+<details><summary>Content</summary>
+<p>
+
+- golang.org/ref/spec
+- Numa declaração de constantes, o identificador iota representa números sequenciais.
+- Na prática.
+    - iota, iota + 1, a = iota b c, reinicia em cada const, _
+- Go Playground: https://play.golang.org/p/eSrwoQjuYR
+
+</P>
+</details>
+
+#
+
+**Deslocamento de bits** | [Go lang - Deslocamento de bits - 16.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20lang%20-%20Deslocamento%20de%20bits%20-%2016.md)
+
+<details><summary>Content</summary>
+<p>
+
+- Deslocamento de bits é quando deslocamos digitos binários para a esquerda ou direita.
+- Na prática:
+    - %d %b
+    - x << y
+    - iota * 10 << 10 = kb, mb, gb
+    
+- https://play.golang.org/p/7MOnbhx4R4
+- https://splice.com/blog/iota-elegant-constants-golang/
+- https://medium.com/learning-the-go-programming-language/bit-hacking-with-go-e0acee258827
+
+</P>
+</details>
+
+#
+
+**** | []()
+
+<details><summary>Content</summary>
+<p>
+
+
+
+</P>
+</details>
+
+#
+
+**** | []()
+
+<details><summary>Content</summary>
+<p>
+
+
+
+</P>
+</details>
+
+#
+
+**** | []()
+
+<details><summary>Content</summary>
+<p>
+
+
+
+</P>
+</details>
+
+#
+
+**** | []()
+
+<details><summary>Content</summary>
+<p>
+
+
+
+</P>
+</details>
+
+#
