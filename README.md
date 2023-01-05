@@ -372,12 +372,115 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 
 #
 
-**** | []()
+**Loops: nested loop (repetição hierárquica)** | [Go Lang - Loops: nested loop (repetição hierárquica) 18.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Loops:%20nested%20loop%20(repeti%C3%A7%C3%A3o%20hier%C3%A1rquica)%2018.md)
 
 <details><summary>Content</summary>
 <p>
 
+- For
+    - Repetição hierárquica
+    - Exemplos: relógio, calendário
 
+</P>
+</details>
+
+#
+
+**Loops: a declaração for** | [Go Lang - Loops: a declaração for - 19.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Loops:%20a%20declara%C3%A7%C3%A3o%20for%20-%2019.md)
+
+<details><summary>Content</summary>
+<p>
+
+- For: inicialização, condição, pós
+- For: condição ("while")
+- For: ...ever? (http servers)
+- For: break
+- golang.org/ref/spec#For_statements, Effective Go
+- (Range vem mais pra frente.)
+
+</P>
+</details>
+
+#
+
+**Loops: break & continue** | [Go Lang - Loops: break & continue - 20.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Loops:%20break%20%26%20continue%20-%2020.md)
+
+<details><summary>Content</summary>
+<p>
+
+- Operação módulo: %
+- For: break
+- For: continue
+- Go Playground: https://play.golang.org/p/gpKMP1wAEM & https://play.golang.org/p/8erMGEbZQix
+
+</P>
+</details>
+
+#
+
+**Loops: utilizando ascii** | [Go Lang - Loops: utilizando ascii - 21.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Loops:%20utilizando%20ascii%20-%2021.md)
+
+<details><summary>Content</summary>
+<p>
+
+- Desafio surpresa!
+- Format printing:
+    - Decimal       %d
+    - Hexadecimal   %#x
+    - Unicode       %#U
+    - Tab           \t
+    - Linha nova    \n
+- Faça um loop dos números 33 a 122, e utilize format printing para demonstrá-los como texto/string.
+- Solução: https://play.golang.org/p/REm2WHyzzz
+
+</P>
+</details>
+
+#
+
+**Condicionais: a declaração if** | [Go Lang -a declaração if- 22.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-a%20declara%C3%A7%C3%A3o%20if-%2022.md)
+
+<details><summary>Content</summary>
+<p>
+
+- If: bool
+- If: o operador não → "!"
+- If: declaração de inicialização
+- Go Playground: https://play.golang.org/p/6nq2Tjb07i
+
+</P>
+</details>
+
+#
+
+**Condicionais: if, else if, else** | [Go Lang -Condicionais: if, else if, else- 23.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-Condicionais:%20if%2C%20else%20if%2C%20else-%20%2023.md)
+
+<details><summary>Content</summary>
+<p>
+
+- If, else.
+- If, else if, else.
+- If, else if, else if, ..., else.
+- Go Playground: https://play.golang.org/p/18VrRX2pec
+
+</P>
+</details>
+
+#
+
+**Condicionais: a declaração switch** | [Go Lang - Condicionais: a declaração switch - 24.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20Lang%20-%20Condicionais:%20a%20declara%C3%A7%C3%A3o%20switch%20-%2024.md)
+
+<details><summary>Content</summary>
+<p>
+
+- Switch:
+    - pode avaliar uma expressão 
+        - switch statement == case (value)
+        - default switch statement == true (bool)
+    - não há fall-through por padrão
+    - criando fall-through
+    - default
+    - cases compostos
 
 </P>
 </details>
@@ -393,17 +496,3 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 
 </P>
 </details>
-
-#
-
-**** | []()
-
-<details><summary>Content</summary>
-<p>
-
-
-
-</P>
-</details>
-
-#
