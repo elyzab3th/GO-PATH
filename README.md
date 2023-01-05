@@ -356,12 +356,16 @@ I'm trying to learn this amazing programming languague by Google. Hope you enjoy
 
 #
 
-**** | []()
+**Inicialização, condição, pós** | [Go lang - Loops: inicialização, condição, pós - 17.md](https://github.com/leone-sh/GO-PATH/blob/main/aulas/Go%20lang%20-%20Loops:%20inicializa%C3%A7%C3%A3o%2C%20condi%C3%A7%C3%A3o%2C%20p%C3%B3s%20-%2017.md)
 
 <details><summary>Content</summary>
 <p>
 
-
+- For
+    - Inicialização, condição, pós
+    - Ponto e vírgula?
+    - gobyexample.com
+    - Não existe while!
 
 </P>
 </details>
